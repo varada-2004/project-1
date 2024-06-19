@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f8f6;
+    background-image: url(va.jpg);
+    background-size: cover;
+}
+
+.pricing-container {
+    text-align: center;
+    background: #2a6d7e;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    max-width: 90%;
+    
+
+}
+
+.pricing-toggles {
+    margin: 20px 0;
+}
+
+.toggle-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #d50fa0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+.plan {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.plan h2 {
+    margin: 0;
+}
+
+.currency-selector {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+    .pricing-container {
+        max-width: 60%;
+    }
+}
